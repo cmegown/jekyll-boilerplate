@@ -2,4 +2,12 @@
 layout: default
 ---
 
-<p>Content goes here.</p>
+<h1>Recent posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
