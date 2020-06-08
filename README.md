@@ -1,6 +1,6 @@
-# Jekyll Boilerplate
+# jekyll-boilerplate
 
 To get started:
 
-* `bundle install`
+* `bundle update`
 * `bundle exec jekyll serve`
